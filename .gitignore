@@ -1,0 +1,7 @@
+__pycache__/
+.env
+.playwright/
+pytest_cache/
+*.log
+*.pyc
+
