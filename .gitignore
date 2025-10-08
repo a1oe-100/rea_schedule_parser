@@ -1,7 +1,102 @@
+# Python
 __pycache__/
-.env
-.playwright/
-pytest_cache/
-*.log
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
 *.pyc
+*.egg-info/
+*.egg
+*.manifest
+*.spec
 
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.o
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+*.pid
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.pytest_cache/
+
+# Jupyter notebooks
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+*.iml
+# Временные и пользовательские файлы PyCharm
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/httpRequests
+.idea/shelf/
+
+#macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Playwright
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+.trace/
+.traces/
+videos/
+screenshots/
+
+# Data / output
+data/output/*
+!data/output/.gitkeep
+
+# Credentials / configs
+*.env
+.env.*
+*.key
+*.pem
+*.crt
+*.json
+!data/groups_list.json
+
+# Misc
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
